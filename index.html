@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static Poetry Implementation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">What Does It Mean To Be Perfect</h1>
+      <h2> by Ryan Zhao</h2>
+    </header>
+    <main class="wrapper">
+      <div class="left-column">
+        <div class="left-column-content">
+          <div class="filler-verse"></div>
+          <ul class="verse" id="verse1">
+            <li class="line" id="line1">In the mythic guise of a "model" dream,</li>
+            <li class="line" id="line2">the whispers of perfection softly gleam.</li>
+            <li class="line" id="line3">They spoke of a myth, a dual-edged sword,</li>
+            <li class="line" id="line4">a stereotype born, yet widely ignored.</li>
+          </ul>
+
+          <ul class="verse" id="verse2">
+            <li class="line" id="line1">Most are given only four paths to follow,</li>
+            <li class="line" id="line2">become a doctor, lawyer, scientist, or engineer tomorrow.</li>
+            <li class="line" id="line3">To follow paths predefined, a set array,</li>
+            <li class="line" id="line4">Yet dreams are diverse, in vibrant disarray.</li>
+          </ul>
+
+          <ul class="verse" id="verse3">
+            <li class="line" id="line1">We are supposed to excel in American schools,</li>
+            <li class="line" id="line2">yet we are treated like outsiders, used as tools.</li>
+            <li class="line" id="line3">They tell us we all look the same.</li>
+            <li class="line" id="line4">So tell me why is there disparity? Who's to blame?</li>
+          </ul>
+
+          <ul class="verse" id="verse4">
+            <li class="line" id="line1">The myth erases, it simplifies, it denies,</li>
+            <li class="line" id="line2">the nuances, struggles, the lows, the highs.</li>
+            <li class="line" id="line3">Expectations trail us wherever we roam,</li>
+            <li class="line" id="line4">From school to work, they shape our home.</li>
+          </ul>
+
+          <ul class="verse" id="verse5">
+            <li class="line" id="line1">What does it mean to be perfect, we ask?</li>
+            <li class="line" id="line2">I'd say it's the hard work and struggles, our daily task.</li>
+            <li class="line" id="line3">They claim perfection, solely by our eyes,</li>
+            <li class="line" id="line4">But perfect doesn't exist, it's all built on deceitful lies.</li>
+          </ul>
+          <div class="filler-verse"></div>
+        </div>
+      </div>
+      <div class="right-column">
+        <svg id="svg"></svg>
+      </div>
+    </main>
+    <footer>
+      <button class="arrow-button" id="backward-button">◄</button>
+      <button class="arrow-button" id="forward-button">►</button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
