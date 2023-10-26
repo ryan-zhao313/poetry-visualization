@@ -115,5 +115,3 @@ d3.csv('../assets/data/asian-groups.csv').then(function (data) {
         .style("fill", "steelblue")
         .attr("font-size", "16px");
 });
-
-svg.node();
