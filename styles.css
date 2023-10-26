@@ -92,3 +92,7 @@ footer {
   font-weight: 100;
   color: #000000;
 }
+
+svg {
+  background-color: #979797;
+}
