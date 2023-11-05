@@ -1,5 +1,4 @@
-# poetry-visualization
-Interactive Poetry Visualization
+# Interactive Poetry Visualization
 
 ## Running the code locally
 
@@ -8,6 +7,7 @@ Interactive Poetry Visualization
 3. right click the ```index.html``` file and open with a web browser of your choosing
 
 ## Incorporating Feedback
+
 The visualization is going to be a grouped bar chart with the left y-axis being the "median household income" and the right y-axis being the "percentage of adults with a bachelors".
 
 Interactions:
